@@ -13,8 +13,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La combustión es el proceso por el cual el combustible reacciona con el oxígeno contenido en el aire para liberar energía interna. Luego, se presentan las propiedades y proceso de combustión del combustible utilizado en el quemador.
-    #t_1_1.titulo-segundo.color-acento-contenido.mb-5
-      h2 1.1 Combustible para quemadores de clarificación y quemadores evaporativos
+    h3.mb-5 Combustible para quemadores de clarificación y quemadores evaporativos
     .p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-2
@@ -22,7 +21,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-5 Para la concentración de los jugos en las hornillas paneleras se emplea como combustible el bagazo de caña; sin embargo, en algunos casos para suplir el déficit de bagazo es necesario agregar otros combustibles adicionales como la guadua, la leña, el carbón mineral, el caucho proveniente de llantas usadas, el ACPM, la cascarilla de café o arroz, (Durán, (s/f)).
+              p.mb-5 Para la concentración de los jugos en las hornillas paneleras, se emplea, como combustible, el bagazo de caña; sin embargo, en algunos casos, para suplir el déficit de bagazo, se hace necesario agregar otros combustibles adicionales como la guadua, la leña, el carbón mineral, el caucho proveniente de llantas usadas, el ACPM, la cascarilla de café o arroz. (Durán, s.f.).
               p El bagazo se presenta como combustible tanto para el clarificador como para el quemador evaporativo, y también, se realiza un análisis de este para determinar la cantidad de calor disponible. 
               
     TabsC.color-acento-contenido
@@ -33,7 +32,7 @@
               img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-3.png')
           .col-md-6
             p Es el residuo fibroso que queda de la caña de azúcar después de haber sido molida para extraer el jugo. Se guarda en una choza llamada bagacera cerca al trapiche y al quemador.
-            p En los pequeños ingenios azucareros, este almacenamiento se acumula en pilas individuales de 2-3 metros de altura, lo que requiere un uso juicioso, tanto de la superficie disponible en la bagacera, como del flujo de aire que promueve el secado. Así que lo secamos durante 8-20 días para su posterior uso en el horno. En el trapiche grande hay una gran bagacera contigua al lugar. En estos, el bagazo se almacena en montones formados por la descarga de canastos recolectados del molino. (Vallejo., Peña, & Mora. 1995). 
+            p En los pequeños ingenios azucareros, este almacenamiento se acumula en pilas individuales de 2-3 metros de altura, lo que requiere un uso juicioso, tanto de la superficie disponible en la bagacera, como del flujo de aire que promueve el secado. Así que lo secamos durante 8-20 días para su posterior uso en el horno. En el trapiche grande, hay una gran bagacera contigua al lugar. En estas, el bagazo se almacena en montones formados por la descarga de canastos recolectados del molino. (Vallejo, Peña & Mora, 1995). 
       
       .py-3.py-md-4(titulo="Composición física")
         .row.align-items-center.justify-content-around
@@ -42,7 +41,7 @@
               img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-4.png')
           .col-md-6
             p A pesar de la variedad de plantas de trituración y de las máquinas utilizadas para ellas, la composición física del bagazo varía dentro de límites muy estrechos. En términos de exotermia, la característica más importante del bagazo es su contenido de humedad. 
-            p Tal contenido de humedad del bagazo en molinos de bajo rendimiento es de alrededor del 50 % y en molinos de buen rendimiento, alrededor del 40 %. Los valores más comunes para el contenido de humedad varían entre 42 % y 48 %, en todos los casos no se considera incorrecto asumir un contenido de humedad del 45 % (Hugot, 1982, p. 617).
+            p El contenido de humedad del bagazo, en molinos de bajo rendimiento, es de alrededor del 50 % y en molinos de buen rendimiento, alrededor del 40 %. Los valores más comunes para el contenido de humedad varían entre 42 % y 48 % y, en todos los casos, no se considera incorrecto asumir un contenido de humedad del 45 %. (Hugot, 1982, p. 617).
             p Además del agua, el bagazo contiene:
             .col-sm.mb-5.mb-sm-0
               ol.lista-ol--cuadro
@@ -96,12 +95,9 @@
                         span Descargar
                         i.fas.fa-file-download
             
-    Separador
+    h3.my-5 Combustible utilizado en las hornillas de concentración
 
-    #t_1_2.titulo-segundo.color-acento-contenido.mb-5
-      h2 1.2 Combustible utilizado en las hornillas de concentración
-
-    p Combustible sólido de color negro o negro parduzco producido por la descomposición de la vegetación vieja en ausencia de aire, bajo las influencias bioquímicas, humedad, presión y calor. Se compone esencialmente de carbono, hidrógeno, oxígeno y pequeñas cantidades de nitrógeno y azufre.
+    p Combustible sólido de color negro o negro parduzco, producido por la descomposición de la vegetación vieja, por ausencia de aire, bajo las influencias bioquímicas, humedad, presión y calor. Se compone esencialmente de carbono, hidrógeno, oxígeno y pequeñas cantidades de nitrógeno y azufre.
     .tarjeta.color-secundario.p-4.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1(data-aos='fade-right')
@@ -113,10 +109,8 @@
           a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/INFOGRAFIA_GENERALIDADES_SOBRE_EL_CARBON.pdf')" target="_blank")
             span.texto-blanco Descargar
             i.fas.fa-file-download
-    Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido.mb-5
-      h2 1.3.	Combustión
+    h3.mb-5 Combustión
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(data-aos='fade-right')(
@@ -125,7 +119,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La combustión es una reacción química que se produce entre las moléculas de oxígeno y un material oxidable, por lo tanto, es un proceso de oxidación rápido en el que se libera energía en forma de calor.
       
-    p <b>A continuación, se presentan algunos componentes, reacciones, propiedades de la combustión y cómo esta se da con el bagazo de la caña.</b>
+    p.mb-5 <b>A continuación, se presentan algunos componentes, reacciones, propiedades de la combustión y cómo esta se da con el bagazo de la caña.</b>
 
 
     .tarjeta.fce.p-4
@@ -137,12 +131,9 @@
             p El aire es una mezcla de gases que se forman en la atmósfera; la composición del aire seco es la siguiente:
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 1.
-              span Composición del aire seco
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
-              figcaption Nota: tomado de Hugot, 1974.
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/1.svg', alt='')
+              figcaption Nota. Tomado de Hugot (1974). 
 
 
         .row(titulo="")
@@ -151,11 +142,11 @@
             p Los elementos combustibles del bagazo son el carbono y el hidrógeno; además de estos elementos, también está presente en el carbón una pequeña cantidad de azufre. Cuando estos reaccionan con el oxígeno, producen:
             .col-6.d-none.d-lg-block
               figure
-                img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-12.svg', alt='Texto que describa la imagen')
+                img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-12.svg', alt='')
 
           .col-md-6
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-11.png', alt='Texto que describa la imagen')
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-11.png', alt='')
           
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -163,12 +154,10 @@
             p La imagen muestra los principales componentes de los gases de combustión y sus principales propiedades.
         
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 2.
-              span Propiedades de los principales componentes de los gases
+            p.mb-4 Propiedades de los principales componentes de los gases
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-13.png', alt='Texto que describa la imagen')
-              figcaption Nota: Tomado de Hugot, 1974
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/2.svg', alt='')
+              figcaption Nota. Tomado de Hugot (1974). 
 
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -186,12 +175,12 @@
             p Pacheco , A. N. U. A. R. (2016). 
           .col-md-6
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-14.png', alt='Texto que describa la imagen')
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-14.png', alt='')
 
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             h3.mb-3 Combustión de bagazo húmedo sin exceso de aire
-            p.mb-5 Dado que el bagazo utilizado durante la combustión tiene un contenido de agua, para calcular la masa de aire teórica o requerida por kilogramo de bagazo, puede usar la siguiente fórmula:
+            p.mb-5 Dado que el bagazo utilizado durante la combustión tiene un contenido de agua, para calcular la masa de aire teórica, o requerida por kilogramo de bagazo, se puede usar la siguiente fórmula:
             p.mb-4 <b>m^1=5,75 (I-w)[Kg]</b>
             p.mb-2 <b>Donde:</b>
             p.mb-1 <b>m^1 = </b> Masa de aire teórico empleado por Kg de bagazo
@@ -199,7 +188,7 @@
         
           .col-md-6
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-15.png', alt='Texto que describa la imagen')
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-15.png', alt='')
         
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -209,7 +198,7 @@
             p.mb-0 C = 0,685 Kg * 2,67   = 1, 829 Kg O<span class="exponentes">2</span>
             p.mb-0 H<span class="exponentes">2</span> = 0,040 Kg * 8  	=  0,320 Kg O<span class="exponentes">2</span>
             p.mb-2 S   = 0,009 Kg * 1  	=  0,009 Kg O<span class="exponentes">2</span>
-            p.mb-1 <b>Total</b>
+            p.mb-1 <b>Total</b> = 2,158 Kg O<span class="exponentes">2</span>
             p.mb-0 El carbón contiene 0,076 Kg O<span class="exponentes">2</span>
             p.mb-4 El aire debe proporcionar   = 2,082 Kg O<span class="exponentes">2</span>
             p.mb-1 <b>Para calcular el nitrógeno </b>
@@ -218,7 +207,7 @@
         
           .col-md-6
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-16.png', alt='')
 
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -232,7 +221,7 @@
             p.mb-1 <b>m_∞ = </b>masa del combustible empleada, en Kg
           .col-md-6
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-17.png', alt='')
             
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -243,7 +232,7 @@
             p Donde m es igual al exceso de aire.
           .col-md-6
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-18.png', alt='')
 
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -256,18 +245,13 @@
             p.mb-1 En la práctica se ha encontrado que las mejores condiciones para quemar bagazo en quemadores son cuando el exceso de aire varía entre 40 % y 60 % del aire teórico.
             p.mb-1 <b>La imagen muestra algunos valores correlativos entre ɻ y m.</b>                                      
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Tabla 3.
-              span Correlación entre el contenido CO2 de los gases de
+            p.mb-4 Correlación entre el contenido CO2 de los gases de
             figure
-              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-19.png', alt='Texto que describa la imagen')
-              figcaption Nota: tomado de Hugot, 1974 
+              img(data-aos='fade-left')(src='@/assets/curso/temas/T1/3.svg', alt='')
+              figcaption Nota. Tomado de Hugot (1974).
         
 
-    Separador
-
-    #t_1_4.titulo-segundo.color-acento-contenido.mb-5
-      h2 1.4.	Procesos unitarios
+    h3.mb-5 Procesos unitarios
 
     .tarjeta.tarjeta--gris.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
@@ -281,31 +265,30 @@
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta.fcp
-                  span a.
-                | Disposición de la caña de azúcar en la zona de molinos
+                  span 1.
+                | Disposición de la caña de azúcar en la zona de molinos.
               li 
                 .lista-ol--cuadro__vineta.fcp
-                  span b.
-                | Extracción de los jugos utilizando molinos (molienda)
+                  span 2.
+                | Extracción de los jugos utilizando molinos (molienda).
               li 
                 .lista-ol--cuadro__vineta.fcp
-                  span c.
-                | Decantación y clarificación de los jugos
+                  span 3.
+                | Decantación y clarificación de los jugos.
               li 
                 .lista-ol--cuadro__vineta.fcp
-                  span d.
-                | Evaporación y concentración para obtención de las mieles (jarabe)
+                  span 4.
+                | Evaporación y concentración para obtención de las mieles (jarabe).
               li 
                 .lista-ol--cuadro__vineta.fcp
-                  span e.
-                | Cristalización
+                  span 5.
+                | Cristalización.
     .row.mt-5.mb-5
       .col-7.offset-1
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
-          span Diagrama de flujo del proceso de transformación de caña de panela 
+          p.mb-0 #[b Figura 1] #[br] #[i Diagrama de flujo del proceso de transformación de caña de panela] 
         figure
-          img(src='@/assets/curso/temas/T1/img-21.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T1/4.svg', alt='')
     p Aunque el Estado colombiano ha tratado de tecnificar las pequeñas empresas productoras de panela, no se ha logrado acceder a recursos para la reconversión tecnológica de sus hornillas y pailas, gracias a esto, en las unidades de producción de panela, se presentan eventos no deseables:
     
     .row
@@ -313,37 +296,37 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             figure
-              img(src='@/assets/curso/temas/T1/img-22.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-22.svg', alt='')
           .tarjeta
             .p-4
-              p Contaminación del aire con gases de combustión y cenizas
+              p Contaminación del aire con gases de combustión y cenizas.
         hr
 
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             figure
-              img(src='@/assets/curso/temas/T1/img-23.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-23.svg', alt='')
           .tarjeta
             .p-4
-              p Agotamiento de recursos naturales, principalmente madera, para alimentar las hornillas paneleras
+              p Agotamiento de recursos naturales, principalmente madera, para alimentar las hornillas paneleras.
         hr
 
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             figure
-              img(src='@/assets/curso/temas/T1/img-24.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-24.svg', alt='')
           .tarjeta
             .p-4
-              p Contaminación de fuentes de agua con el vertimiento de cachaza y lodo de caña
+              p Contaminación de fuentes de agua con el vertimiento de cachaza y lodo de caña.
         hr
 
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             figure
-              img(src='@/assets/curso/temas/T1/img-25.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-25.svg', alt='')
           .tarjeta
             .p-4
               p Emisiones atmosféricas como resultado del uso de motores Diésel en los molinos de caña.

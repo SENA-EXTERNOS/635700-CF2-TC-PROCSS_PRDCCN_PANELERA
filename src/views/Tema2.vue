@@ -19,7 +19,7 @@
       .row.justify-content-around.align-items-center(titulo="Extracción<br>de la materia prima")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-2.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-2.png', alt='')
           
       
         .col-md-8
@@ -31,7 +31,7 @@
       .row.justify-content-around.align-items-center(titulo="Recepción<br>de la materia prima")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-3.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-3.png', alt='')
           
       
         .col-md-7
@@ -42,7 +42,7 @@
       .row.justify-content-around.align-items-center(titulo="Molienda")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-4.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-4.png', alt='')
           
       
         .col-md-7
@@ -52,7 +52,7 @@
       .row.justify-content-around.align-items-center(titulo="Pre-limpieza")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-5.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-5.png', alt='')
           
       
         .col-md-8
@@ -62,7 +62,7 @@
       .row.justify-content-around.align-items-center(titulo="Almacenamiento<br>de los jugos")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-6.png', alt='')
           
       
         .col-md-8
@@ -71,7 +71,7 @@
       .row.justify-content-around.align-items-center(titulo="Clarificación")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-7.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-7.png', alt='')
           
       
         .col-md-8
@@ -83,7 +83,7 @@
       .row.justify-content-around.align-items-center(titulo="Evaporación<br>y concentración")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-8.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-8.png', alt='')
           
       
         .col-md-7
@@ -94,7 +94,7 @@
       .row.justify-content-around.align-items-center(titulo="Punteo")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-9.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-9.png', alt='')
           
       
         .col-md-8
@@ -105,7 +105,7 @@
       .row.justify-content-around.align-items-center(titulo="Cristalización<br>y enfriamiento")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-10.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-10.png', alt='')
           
       
         .col-md-8
@@ -116,7 +116,7 @@
       .row.justify-content-around.align-items-center(titulo="Tamizado")
         .col-md-4.mb-4.mb-md-0
           figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-11.png', alt='Texto que describa la imagen')
+            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-11.png', alt='')
           
       
         .col-md-8
@@ -133,11 +133,10 @@
       .row.justify-content-around.align-items-center
         .col-md-9
           .titulo-sexto.color-acento-contenido
-            h5 Figura 3.
-            span Diagrama en perspetiva de un trapiche panelero
+            p.mb-0 #[b Figura 2] #[br] #[i Diagrama en perspetiva de un trapiche panelero]
           figure
-            img(src='@/assets/curso/temas/T2/img-12.png', alt='Texto que describa la imagen')
-            figcaption Nota: Adaptada / Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá, 2011
+            img(src='@/assets/curso/temas/T2/img-12.png', alt='')
+            figcaption Nota. Adaptada de Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá (2011).
 
     p.mb-5 La mayoría de los ingenios azucareros trabajan con un sistema de “evaporación abierta y fuego directo”. Está abierto porque el evaporador (olla) está en contacto directo con los gases de combustión, por lo que el jugo hierve a la presión atmosférica local y tiene llama abierta.
     
@@ -145,50 +144,49 @@
       .row.justify-content-around.align-items-center
         .col-md-9
           .titulo-sexto.color-acento-contenido
-            h5 Figura 4.
-            span Partes que componen una hornilla panelera
+            p.mb-0 #[b Figura 3] #[br] #[i Partes que componen una hornilla panelera]
 
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/T2/img-13.png', alt='')
           
 
       .tarjeta.tarjeta-amarillo.p-3(x="10%" y="62%" numero="1")
         .h5.mb-2 Cámara de combustión
         p Una cavidad en la parte delantera del quemador donde se quema bagazo u otro combustible.
-        img(src='@/assets/curso/temas/T2/img-14.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-14.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="3%" y="100%" numero="2")
         .h5.mb-2 Cenicero
         p El cenicero es el compartimento o espacio justo debajo de la parrilla. 
-        img(src='@/assets/curso/temas/T2/img-15.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-15.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="7%" y="83%" numero="3")
         .h5.mb-2 Puerta de alimentación
         p Una abertura para que el panelero inserte el bagazo y encienda fuego. 
-        img(src='@/assets/curso/temas/T2/img-16.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-16.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="35%" y="96%" numero="4")
         .h5.mb-2 Parrilla
         p La parrilla consiste en una serie de placas de hierro fundido colocadas horizontalmente una detrás de la otra. 
-        img(src='@/assets/curso/temas/T2/img-17.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-17.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="49%" y="93%" numero="5")
         .h5.mb-2 Ducto de gases
         p También recibe su nombre de gasoductos, carreteras, barcos, etc.  
-        img(src='@/assets/curso/temas/T2/img-18.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-18.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="78%" y="27%" numero="6")
         .h5.mb-2 Chimenea
         p Se trata de un conducto de ladrillo o chapa que se encuentra al final del quemador.  
-        img(src='@/assets/curso/temas/T2/img-19.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/T2/img-19.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="50%" y="47%" numero="7")
         .h5.mb-2 Pailas
         p Una paila es un recipiente metálico (a veces llamado charola, cacerola o evaporador).  
-        img(src='@/assets/curso/temas/T2/img-20.svg', alt='Texto que describa la imagen')
-    figcaption.mb-5 Nota: Adaptada / Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá, 2011
+        img(src='@/assets/curso/temas/T2/img-20.svg', alt='')
+    figcaption.mb-5 Nota. Adaptada de Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá (2011).
 
     ol.lista-ol--cuadro.mb-3
       li
@@ -327,8 +325,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.texto-negro.mb-1 Profundice en el estudio de este tema
-              p.texto-negro.text-small realizando la lectura del documento: Anexo 2. 
-              p.texto-negro.text-small Seguridad y salud en el trabajo.   
+              p.texto-negro.mb-0  Profundice en el estudio de este tema, realizando la lectura del documento: Anexo 2. Seguridad y salud en el trabajo. Para acceder al documento, haga clic aquí.   
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/ANEXO2.pdf')" target="_blank")
                 span Descargar

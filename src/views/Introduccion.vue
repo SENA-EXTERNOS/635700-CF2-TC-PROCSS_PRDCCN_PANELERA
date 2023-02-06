@@ -14,13 +14,8 @@
         :style="{'background-image': `url(${require('@/assets/curso/introduccion/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Apreciado aprendiz, sea bienvenido a este componente formativo, enfocado en los efectos de la temperatura en la producción panelera.
-        <br/>
-        <br/>
-        p.mb-5 Antes de empezar, se sugiere revisar el siguiente video donde podrá identificar el contexto del mismo.
-        <br/>
-        <br/>
-        p.mb-3 <b>¡Éxitos en este proceso de aprendizaje!</b>
+        p.mb-0 Apreciado aprendiz, sea bienvenido a este componente formativo, enfocado en los efectos de la temperatura en la producción panelera.<br><br>En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
 
     .row.mt-5
       .col-12

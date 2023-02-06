@@ -17,7 +17,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+      
 
     .tarjeta.tarjeta-amarillo.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
@@ -25,8 +25,7 @@
           img(data-aos='fade-right')(src="@/assets/curso/temas/T3/img-2.svg")
 
         .col-md.col-lg-6
-          p.mb-4 <b>¡Muy bien!</b> ha finalizado el estudio de este componente formativo, a través del cual se ha aprendido sobre los efectos de la temperatura en la producción panelera. Ahora lo invitamos repasar, mediante la síntesis, los principales aspectos desarrollados en este ciclo y a realizar la actividad de aprendizaje donde podrá poner a prueba lo aprendido y, a su vez, consultar el material complementario que le servirá como refuerzo. Con el glosario final, también podrá profundizar en los conceptos manejados.  
-
+          p.mb-4 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>
