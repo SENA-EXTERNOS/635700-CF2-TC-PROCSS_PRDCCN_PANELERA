@@ -54,7 +54,7 @@
                     span b.
                   | Sustancia que se disuelve en agua (jugo de frutas) y está compuesta de azúcares e impurezas. Estas sustancias ocurren a una tasa de 5 - 10 %.
 
-      .py-3.py-md-4(titulo="Cantidad")
+      .py-3.py-md-4(titulo="Cantidad de Bagazo")
         .row.align-items-center.justify-content-around
           .col-md-4.mb-4.mb-md-0
             figure
@@ -125,8 +125,8 @@
     .tarjeta.fce.p-4
       PasosB.color-secundario
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Composición del aire 
             p El aire es una mezcla de gases que se forman en la atmósfera; la composición del aire seco es la siguiente:
         
@@ -136,8 +136,8 @@
               figcaption Nota. Tomado de Hugot (1974). 
 
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Reacciones de la combustión
             p Los elementos combustibles del bagazo son el carbono y el hidrógeno; además de estos elementos, también está presente en el carbón una pequeña cantidad de azufre. Cuando estos reaccionan con el oxígeno, producen:
             .col-6.d-none.d-lg-block
@@ -148,8 +148,8 @@
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-11.png', alt='')
           
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Caracterización de los productos gaseosos de la combustión
             p La imagen muestra los principales componentes de los gases de combustión y sus principales propiedades.
         
@@ -159,8 +159,8 @@
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/2.svg', alt='')
               figcaption Nota. Tomado de Hugot (1974). 
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Combustión de bagazo seco sin exceso de aire
             p.mb-3 Para calcular la cantidad de oxígeno necesaria para la combustión se tiene en cuenta la composición química del bagazo y el porcentaje obtenido por las reacciones anteriores.
             p.mb-0 <b>Ejemplo:</b>
@@ -177,8 +177,8 @@
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-14.png', alt='')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Combustión de bagazo húmedo sin exceso de aire
             p.mb-5 Dado que el bagazo utilizado durante la combustión tiene un contenido de agua, para calcular la masa de aire teórica, o requerida por kilogramo de bagazo, se puede usar la siguiente fórmula:
             p.mb-4 <b>m^1=5,75 (I-w)[Kg]</b>
@@ -190,8 +190,8 @@
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-15.png', alt='')
         
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Combustión de carbón sin exceso de aire.
             p.mb-4 Para calcular la cantidad de oxígeno necesaria para la combustión, se debe tener en cuenta la composición química del carbón y las proporciones especificadas en la reacción anterior.
             p.mb-1 <b>Ejemplo</b>
@@ -209,8 +209,8 @@
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-16.png', alt='')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb- Combustión con exceso de aire
             p.mb-4 En la práctica, no es posible suministrar solo la cantidad de aire teóricamente necesaria para quemar el combustible. Lograr una combustión completa, sin dejar residuos, sin quemar y convertir todo el carbono en CO2 requiere un exceso de suministro de aire. De hecho, cuando parte del carbono se quema para formar solo CO, se pierde una cantidad significativa de calor.
             p.mb-2 Calcule la cantidad real de aire consumido por kilogramo de combustible húmedo usando la siguiente fórmula:
@@ -223,8 +223,8 @@
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-17.png', alt='')
             
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Exceso de aire 
             p.mb-4 La relación entre el aire suministrado a la combustión y el aire teóricamente necesario para quemar 1 kg de combustible. Para quemadores, se recomienda que el exceso de aire esté en el rango de 1.4 a 1.6 (CIMPA, 1992, p.61). Un exceso mayor enfría los gases de combustión, un exceso menor puede provocar una mala combustión.
             p.mb-1 <b>Para su cálculo se utiliza la siguiente fórmula:</b>
@@ -234,8 +234,8 @@
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-18.png', alt='')
 
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center(titulo="")
+          .col-md-5.mb-4.mb-md-0
             h3.mb-3 Contenido de CO2 en los gases de salida
             p.mb-4 Dado que, el contenido de carbono del bagazo es constante (47 %), la cantidad de CO2 que se produce al quemar 1 kilogramo de bagazo seco también es constante. Cuando se usa la cantidad de aire requerida teóricamente, el contenido de CO2 en los gases de escape se maximiza, mientras que, con el exceso de aire, la cantidad de CO2 en un volumen de aire dado aumenta al aumentar el exceso de aire y permanece constante. El porcentaje de CO2 disminuye al aumentar el exceso de aire.
             p.mb-1 <b>El aire extra es lo mismo a :</b> m =  ( 0,196)/ɻ   
