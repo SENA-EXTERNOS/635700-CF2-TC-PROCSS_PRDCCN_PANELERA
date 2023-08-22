@@ -13,7 +13,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/introduccion/img-1.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-5
         p.mb-0 Apreciado aprendiz, sea bienvenido a este componente formativo, enfocado en los efectos de la temperatura en la producción panelera.<br><br>En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
 

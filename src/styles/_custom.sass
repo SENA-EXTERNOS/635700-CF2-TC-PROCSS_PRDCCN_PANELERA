@@ -16,7 +16,11 @@
     right: 90%
 
 .banner-principal__img
-  width: 400px !important    
+  width: 400px !important 
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/1.png") !important
+  
 
 @keyframes float1
   0%
@@ -35,8 +39,19 @@
   color: #EBF2DC
 
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
 .faa
-  background-color: #FBE1E1 !important
+  background-image: url(../assets/curso/temas/1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center    
 
 .fab
   background-color: $color-acento-botones !important
@@ -69,8 +84,31 @@
 .color-acordeones
   background-color: #ECF3DD !important
 
-.banner-interno__fondo
-  background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
-
 .tabs-c__tab--active
   font-weight: bold  
+
+.bloque-texto-g.color-secundario
+  background-color: #81AF1D
+
+.tarjeta.color-secundario
+  background-color: #EDB780     
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before 
+  background-color: #EDB780  
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus, .tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #EDB780
+  color: black
+.tabs-a__tab 
+  background-color: #E8E8E8    
+
+.acordion
+  .tarjeta.bg6
+    background-color: #F6F6F6
+
+.tarjeta.bg6.acordion__activo
+  background-color: #FBEDDF !important     
+
+.acordion__accion__btn--a 
+  background-color: #5038A1 !important
+.acordion__accion__btn--a i 
+  color: white  

@@ -11,15 +11,14 @@
       .bloque-texto-g__img(data-aos='fade-right')(
         :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-1.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-5
         p.mb-0 La panela es un edulcorante altamente nutritivo que se elabora concentrando todos los sólidos solubles en agua y en el jugo de caña de azúcar. La panela se diferencia de la azúcar refinada en que contiene, además de sacarosa, glucosa y fructosa, una presencia importante de minerales, grasas, compuestos proteicos y vitaminas, desde el punto de vista nutricional.
     p.mb-4 <b>A continuación, se presentan las fases del proceso de producción de panela.</b>
 
-    LineaTiempoC.color-acento-botones.faa(text-small)
+    LineaTiempoC.color-acento-botones.faa.p-5
       .row.justify-content-around.align-items-center(titulo="Extracción<br>de la materia prima")
         .col-md-4.mb-4.mb-md-0
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-2.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/T2/img-2.png', alt='')
           
       
         .col-md-8
@@ -30,8 +29,7 @@
 
       .row.justify-content-around.align-items-center(titulo="Recepción<br>de la materia prima")
         .col-md-4.mb-4.mb-md-0
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-3.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/T2/img-3.png', alt='')
           
       
         .col-md-7
@@ -41,8 +39,7 @@
 
       .row.justify-content-around.align-items-center(titulo="Molienda")
         .col-md-4.mb-4.mb-md-0
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-4.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/T2/img-4.png', alt='')
           
       
         .col-md-7
@@ -51,8 +48,7 @@
 
       .row.justify-content-around.align-items-center(titulo="Pre-limpieza")
         .col-md-4.mb-4.mb-md-0
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-5.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/T2/img-5.png', alt='')
           
       
         .col-md-8
@@ -61,8 +57,7 @@
 
       .row.justify-content-around.align-items-center(titulo="Almacenamiento<br>de los jugos")
         .col-md-4.mb-4.mb-md-0
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-6.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/T2/img-6.png', alt='')
           
       
         .col-md-8
@@ -70,8 +65,7 @@
 
       .row.justify-content-around.align-items-center(titulo="Clarificación")
         .col-md-4.mb-4.mb-md-0
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-7.png', alt='')
+          img.img-a.img-t(src='@/assets/curso/temas/T2/img-7.png', alt='')
           
       
         .col-md-8
@@ -202,7 +196,7 @@
         p <b>Tipos de cámaras de combustión</b>
     .row
       .col-8
-        TabsA.color-secundario.mb-5
+        TabsA.color-acento-botones.mb-5
           .tarjeta.color-acordeones.p-4(titulo="Plana")
 
             .row 
@@ -287,7 +281,7 @@
         figure
           img(data-aos='fade-right')(src='@/assets/curso/temas/T2/img-23.svg')
       .col-9
-        AcordionA.mb-5(tipo="a" clase-tarjeta="faa")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg6")
           .row(titulo="Paila semicilíndrica")
             .col-md-8.mb-4.mb-md-0
               p.mb-5 Se utiliza una cubeta semicilíndrica cuando el paso del jugo se realiza manualmente. Tiene la ventaja de poder reducir el ancho del quemador con la misma superficie de transferencia de calor que una olla plana. Están en la zona más caliente del quemador.
@@ -313,7 +307,7 @@
       .bloque-texto-g__img(data-aos='fade-right')(
         :style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-24.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-5
         p.mb-0 Los temas de seguridad y salud en el trabajo han cobrado mucha importancia en Colombia, esto se debe a que a lo largo de los años  progresivamente se han hecho cumplir leyes, normas y reglamentos que son más que beneficiosos para la empresa y sus empleados. Es deber de los empresarios velar por el cumplimiento de esta normativa, por la seguridad y salud de los trabajadores y evitar riesgos y peligros que tengan efectos sobre la salud.
     
 

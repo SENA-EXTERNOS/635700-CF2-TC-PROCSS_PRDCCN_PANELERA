@@ -11,7 +11,7 @@
       .bloque-texto-g__img(data-aos='fade-right')(
         :style="{'background-image': `url(${require('@/assets/curso/temas/T3/img-1.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-5
         p.mb-0 A lo largo de los años, la industria de la panela ha evolucionado su proceso de producción a través de la artesanía sin agregar valor a sus productos ni realizar cambios importantes en el proceso de producción. A continuación, se presenta un video que muestra cómo se ve la gestión ambiental y de residuos del proceso de producción de panela en Colombia. 
 
     figure.mb-5

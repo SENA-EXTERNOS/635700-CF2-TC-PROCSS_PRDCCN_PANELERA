@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'La temperatura juega un papel importante en el control del proceso y afecta la calidad del producto final. La relación entre esta, la concentración y la pureza de las soluciones de azúcar, es una herramienta de control eficaz para la industria. Se sabe que a medida que aumenta la concentración de una solución, expresada en grados Brix, también aumenta el punto de ebullición.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -131,10 +131,10 @@ export default {
     {
       tema: '1. Combustible utilizado en la hornilla',
       referencia:
-        'García Rincón, J. G., Arévalo Toscano, J.  & Guerrero Gómez, G. (2021). Análisis energético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologías De Avanzada (Rcta), 1</i>(25), p. 32-39.',
+        'García Rincón, J. G., Arévalo Toscano, J.  & Guerrero Gómez, G. (2021). Análisis exergético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologías De Avanzada (Rcta), 1</i>(25), p. 32-39.',
       tipo: 'Artículo',
       link:
-        'http://ojs.unipamplona.edu.co/ojsviceinves/index.php/rcta/article/view/409',
+        'https://docplayer.es/72041133-Exergy-analysis-for-a-furnace-in-the-production-of-panela-analisis-exergetico-de-un-horno-de-lecho-fijo-en-la-produccion-de-panela.html',
     },
     {
       tema: 'Proceso de transferencia de calor en la hornilla panelera',

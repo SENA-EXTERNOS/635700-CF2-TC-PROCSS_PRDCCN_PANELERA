@@ -11,7 +11,7 @@
       .bloque-texto-g__img(data-aos='fade-right')(
         :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-1.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-5
         p.mb-0 La combustión es el proceso por el cual el combustible reacciona con el oxígeno contenido en el aire para liberar energía interna. Luego, se presentan las propiedades y proceso de combustión del combustible utilizado en el quemador.
     h3.mb-5 Combustible para quemadores de clarificación y quemadores evaporativos
     .p-3.mb-5
@@ -89,7 +89,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      p.texto-blanco Para ampliar la información relacionada con los valores caloríficos del bagazo de la caña, revise con atención el documento Anexo 1. Valor calorífico del bagazo. Para ello, haga clic aquí.
+                      p.mb-0 Para ampliar la información relacionada con los valores caloríficos del bagazo de la caña, revise con atención el documento Anexo 1. Valor calorífico del bagazo. Para ello, haga clic aquí.
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/ANEXO1.pdf')" target="_blank")
                         span Descargar
@@ -98,17 +98,19 @@
     h3.my-5 Combustible utilizado en las hornillas de concentración
 
     p Combustible sólido de color negro o negro parduzco, producido por la descomposición de la vegetación vieja, por ausencia de aire, bajo las influencias bioquímicas, humedad, presión y calor. Se compone esencialmente de carbono, hidrógeno, oxígeno y pequeñas cantidades de nitrógeno y azufre.
-    .tarjeta.color-secundario.p-4.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1(data-aos='fade-right')
-          figure
-            img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-8.svg', alt='Obrero')
-        .col-md-9.mb-3.mb-md-0
-          p.texto-blanco A continuación, se presentan algunas generalidades sobre el carbón.
-        .col-sm-auto
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/INFOGRAFIA_GENERALIDADES_SOBRE_EL_CARBON.pdf')" target="_blank")
-            span.texto-blanco Descargar
-            i.fas.fa-file-download
+    .row.justify-content-center.align-items-center         
+      .col-lg-10    
+        .tarjeta.color-secundario.p-4.my-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1(data-aos='fade-right')
+              figure
+                img(data-aos='fade-right')(src='@/assets/curso/temas/T1/img-8.svg', alt='Obrero')
+            .col-md-9.mb-3.mb-md-0
+              p.mb-0 A continuación, se presentan algunas generalidades sobre el carbón.
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/INFOGRAFIA_GENERALIDADES_SOBRE_EL_CARBON.pdf')" target="_blank")
+                span.texto-blanco Descargar
+                i.fas.fa-file-download
 
     h3.mb-5 Combustión
 
@@ -116,7 +118,7 @@
       .bloque-texto-g__img(data-aos='fade-right')(
         :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-9.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-5
         p.mb-0 La combustión es una reacción química que se produce entre las moléculas de oxígeno y un material oxidable, por lo tanto, es un proceso de oxidación rápido en el que se libera energía en forma de calor.
       
     p.mb-5 <b>A continuación, se presentan algunos componentes, reacciones, propiedades de la combustión y cómo esta se da con el bagazo de la caña.</b>
@@ -133,7 +135,7 @@
           .col-md-6
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/1.svg', alt='')
-              figcaption Nota. Tomado de Hugot (1974). 
+              figcaption.mt-3 Nota. Tomado de Hugot (1974). 
 
 
         .row.justify-content-center(titulo="")
@@ -157,7 +159,7 @@
             p.mb-4 Propiedades de los principales componentes de los gases
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/2.svg', alt='')
-              figcaption Nota. Tomado de Hugot (1974). 
+              figcaption.mt-3 Nota. Tomado de Hugot (1974). 
 
         .row.justify-content-center(titulo="")
           .col-md-5.mb-4.mb-md-0
@@ -238,9 +240,9 @@
           .col-md-5.mb-4.mb-md-0
             h3.mb-3 Contenido de CO2 en los gases de salida
             p.mb-4 Dado que, el contenido de carbono del bagazo es constante (47 %), la cantidad de CO2 que se produce al quemar 1 kilogramo de bagazo seco también es constante. Cuando se usa la cantidad de aire requerida teóricamente, el contenido de CO2 en los gases de escape se maximiza, mientras que, con el exceso de aire, la cantidad de CO2 en un volumen de aire dado aumenta al aumentar el exceso de aire y permanece constante. El porcentaje de CO2 disminuye al aumentar el exceso de aire.
-            p.mb-1 <b>El aire extra es lo mismo a :</b> m =  ( 0,196)/ɻ   
+            p.mb-1 <b>El aire extra es lo mismo a:</b> m =  ( 0,196)/ɻ   
             p.mb-1 <b>Donde:</b>
-            p.mb-1 <b>m</b>= (Masa del aire empleado)/ (Masa del aire estrictamente necesario) 
+            p.mb-1 <b>m</b>= (Masa del aire empleado) / (Masa del aire estrictamente necesario) 
             p.mb-1 ɻ = Contenido de CO2 de los gases secos con relación a la unidad.  
             p.mb-1 En la práctica se ha encontrado que las mejores condiciones para quemar bagazo en quemadores son cuando el exceso de aire varía entre 40 % y 60 % del aire teórico.
             p.mb-1 <b>La imagen muestra algunos valores correlativos entre ɻ y m.</b>                                      
@@ -248,10 +250,10 @@
             p.mb-4 Correlación entre el contenido CO2 de los gases de
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/3.svg', alt='')
-              figcaption Nota. Tomado de Hugot (1974).
+              figcaption.mt-3 Nota. Tomado de Hugot (1974).
         
 
-    h3.mb-5 Procesos unitarios
+    h3.my-5 Procesos unitarios
 
     .tarjeta.tarjeta--gris.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
@@ -338,12 +340,12 @@
         .row(titulo="Manejo de jugos")
           .col-md-12.mb-4.mb-md-0
             .tarjeta.tarjeta-amarillo.p-4.mb-4
-              p.mb-5 Debe tenerse en cuenta, que la falta de automatización y control en procesos y operaciones unitarias, genera una inadecuada dosificación de insumos, como el bagazo – suministrado a la cámara de combustión - y las sustancias clarificantes – sobre los jugos. La falta de automatización y de control dificulta la trazabilidad interna de la panela.
+              p Debe tenerse en cuenta, que la falta de automatización y control en procesos y operaciones unitarias, genera una inadecuada dosificación de insumos, como el bagazo – suministrado a la cámara de combustión - y las sustancias clarificantes – sobre los jugos. La falta de automatización y de control dificulta la trazabilidad interna de la panela.
 
         .row(titulo="Calentamiento de jugos")
           .col-md-12.mb-4.mb-md-0
             .tarjeta.tarjeta-amarillo.p-4.mb-4
-              p.mb-5 Al no integrarse los procesos unitarios se propicia pérdidas energéticas, pérdida de calor por transferencia a las paredes de la cámara de combustión, la no captura de calor residual al interior del ducto de gases y pérdida de temperatura de los gases expulsados por la chimenea. Se estimó que la pérdida de calor alcanza el 41 %.
+              p Al no integrarse los procesos unitarios se propicia pérdidas energéticas, pérdida de calor por transferencia a las paredes de la cámara de combustión, la no captura de calor residual al interior del ducto de gases y pérdida de temperatura de los gases expulsados por la chimenea. Se estimó que la pérdida de calor alcanza el 41 %.
         
       .col-4
         figure
