@@ -129,7 +129,7 @@ export default {
         'https://repositorio.uniandes.edu.co/bitstream/handle/1992/12574/u686426.pdf?sequence=1',
     },
     {
-      tema: '1. Combustible utilizado en la hornilla',
+      tema: 'Combustible utilizado en la hornilla',
       referencia:
         'García Rincón, J. G., Arévalo Toscano, J.  & Guerrero Gómez, G. (2021). Análisis exergético de un horno de lecho fijo en la producción de panela. <i>Revista Colombiana De Tecnologías De Avanzada (Rcta), 1</i>(25), p. 32-39.',
       tipo: 'Artículo',
@@ -184,7 +184,7 @@ export default {
     },
     {
       tema:
-        '3. Gestión ambiental y residuos en el proceso productivo de la panela',
+        'Gestión ambiental y residuos en el proceso productivo de la panela',
       referencia:
         'Castillo Quiroga, B., García Castellanos, E. H., León Quiroga, L. & Moreno Díaz, D. M. (2020). <i>Implementación de prácticas que generen la disminución de agentes contaminantes que se liberan en el medio ambiente en los centros de producción panelera en el municipio de Santana, Boyacá</i>.',
       tipo: 'Trabajo de grado',
@@ -225,7 +225,7 @@ export default {
     {
       termino: 'Ciclo PHVA',
       significado:
-        'un enfoque lógico, paso a paso, que permite la mejora continua al hacer un plan: Planificar: Debe planificar cómo mejorar la seguridad y la salud de los trabajadores, identificar qué está mal, qué se puede mejorar y proponer ideas para resolver esos problemas. Hacer: Implementación de las contramedidas planificadas. Verificar: Comprobar si los procedimientos y medidas adoptadas están consiguiendo los resultados deseados. Actuar: Implementación de medidas correctivas para el máximo beneficio de la seguridad y salud de los trabajadores.',
+        'un enfoque lógico, paso a paso, que permite la mejora continua al hacer un plan. Planificar: Debe planificar cómo mejorar la seguridad y la salud de los trabajadores, identificar qué está mal, qué se puede mejorar y proponer ideas para resolver esos problemas. Hacer: Implementación de las contramedidas planificadas. Verificar: Comprobar si los procedimientos y medidas adoptadas están consiguiendo los resultados deseados. Actuar: Implementación de medidas correctivas para el máximo beneficio de la seguridad y salud de los trabajadores.',
     },
     {
       termino: 'Contaminación ambiental',
@@ -344,6 +344,8 @@ export default {
     {
       referencia:
         'Gordillo, G. y García, H. R. (1992). <i>Manual para el diseño y operación de hornillas paneleras</i>. Barbosa. ICA-Holanda.',
+      link:
+        'https://www.researchgate.net/publication/306375186_Hornillas_para_la_produccion_de_panela',
     },
     {
       referencia:
@@ -396,6 +398,7 @@ export default {
     {
       referencia:
         'Suárez Guevara, I. C. (2019). <i>Estrategias para la producción más limpia en el sector de cacao y caña panelera en el Valle del Cauca bajo el marco del Plan Nacional de Negocios Verdes en Colombia</i>.',
+      link: 'https://red.uao.edu.co/bitstream/10614/11611/5/T08904.pdf',
     },
     {
       referencia:

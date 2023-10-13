@@ -46,7 +46,7 @@
           p.mb-4 Esta es la primera parte del proceso donde la caña de azúcar se pasa entre los rodillos o martillos de un molino para obtener el jugo de caña de azúcar y un residuo sólido llamado bagazo verde que contiene 50 – 60 % de humedad. 
           p.mb-4 La industria panelera utiliza un proceso de extracción en seco. Es decir, el proceso de trituración se realiza sin añadir agua.
 
-      .row.justify-content-around.align-items-center(titulo="Pre-limpieza")
+      .row.justify-content-around.align-items-center(titulo="Prelimpieza")
         .col-md-4.mb-4.mb-md-0
           img.img-a.img-t(src='@/assets/curso/temas/T2/img-5.png', alt='')
           
@@ -61,7 +61,7 @@
           
       
         .col-md-8
-          p.mb-4 Consiste en recolectar el jugo pre lavado en tanques de almacenamiento o colectores de acero inoxidable. El paso del jugo almacenado al clarificador es por gravedad, por lo que es importante que el colector quede arriba del clarificador.
+          p.mb-4 Consiste en recolectar el jugo prelavado en tanques de almacenamiento o colectores de acero inoxidable. El paso del jugo almacenado al clarificador es por gravedad, por lo que es importante que el colector quede arriba del clarificador.
 
       .row.justify-content-around.align-items-center(titulo="Clarificación")
         .col-md-4.mb-4.mb-md-0
@@ -127,7 +127,7 @@
       .row.justify-content-around.align-items-center
         .col-md-9
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 2] #[br] #[i Diagrama en perspetiva de un trapiche panelero]
+            p.mb-0 #[b Figura 2] #[br] #[i Diagrama en perspectiva de un trapiche panelero]
           figure
             img(src='@/assets/curso/temas/T2/img-12.png', alt='')
             figcaption Nota. Adaptada de Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá (2011).
@@ -177,7 +177,7 @@
         img(src='@/assets/curso/temas/T2/img-19.svg', alt='')
 
       .tarjeta.tarjeta-amarillo.p-3(x="50%" y="47%" numero="7")
-        .h5.mb-2 Pailas
+        .h5.mb-2 Evaporadores (pailas o tachos metálicos)
         p Una paila es un recipiente metálico (a veces llamado charola, cacerola o evaporador).  
         img(src='@/assets/curso/temas/T2/img-20.svg', alt='')
     figcaption.mb-5 Nota. Adaptada de Programa de procesos Agroindustriales. CORPOICA- C.I. Tibaitatá (2011).
@@ -187,7 +187,7 @@
         .lista-ol--cuadro__vineta.fab
           span 1
         h3 Cámara de combustión
-    p.mb-5 Una cavidad en la parte delantera del quemador donde se quema bagazo u otro combustible para producir la energía o el calor necesarios para el proceso de fabricación de Panela. 
+    p.mb-5 Una cavidad en la parte delantera del quemador donde se quema bagazo u otro combustible para producir la energía o el calor necesario para el proceso de fabricación de Panela. 
 
     ol.lista-ol--cuadro.mb-3
       li
@@ -211,11 +211,11 @@
             .row
               .col-xl-12.mb-4
                 p.mb-4 Esta cámara es un diseño mejorado de la cámara tradicional, donde el bagazo se quema lejos de la primera bandeja y alcanza una alta temperatura de combustión de casi 950 °C. Este tipo de cámara se caracteriza por la combustión de bagazo con una humedad inferior al 30 % (base húmeda, b.h.) y un exceso de aire de casi el 60 %.
-                p Las dimensiones de la cámara dependen de la energía requerida para el proceso y la geometría de la parrilla estándar. En general son más largas que anchas y las dimensiones son la velocidad del gas (3-5 m/s debajo de la primera cubeta y 7-10 m/s debajo de la última cubeta) y el máximo medio La 4ª o 5ª cubeta dada la longitud de la llama del bagazo alcanzando los 6 metros.
+                p Las dimensiones de la cámara dependen de la energía requerida para el proceso y la geometría de la parrilla estándar. En general son más largas que anchas y las dimensiones son la velocidad del gas (3-5 m/s debajo de la primera cubeta y 7-10 m/s debajo de la última cubeta) y el máximo medio la 4ª o 5ª cubeta dada la longitud de la llama del bagazo alcanzando los 6 metros.
               
                 
           
-          .tarjeta.color-acordeones.p-4(titulo="Ward-CIMPA")
+          .tarjeta.color-acordeones.p-4(titulo="Ward-Cimpa")
             p.mb-4 Este tipo de cámara tiene un diseño especial que aumenta la combustión y la eficiencia del proceso. Esto se debe a una mejor estabilidad en términos de temperatura y potencia a lo largo del tiempo. Este tipo de cámara puede alcanzar temperaturas cercanas a los 1200 °C y, cuando se le suministra un 60 % de exceso de aire y una humedad promedio de 40 bagazo, produce un 3 % en volumen de monóxido de carbono y un 14 % en volumen de dióxido de carbono. 
             p.mb-4 También cuenta con dos características especiales. Primero, hay lámparas que precalientan y secan el bagazo antes de quemarlo. 
             p En esta tolva, la humedad contenida en el bagazo se evapora de las paredes de la cámara bajo la acción de la energía radiante. Esta característica permite la introducción de bagazo con un contenido de humedad de casi 45 % (b.h.). En segundo lugar, el aire necesario para la combustión se suministra en dos corrientes. Uno es el aire primario que fluye a través de la parrilla (un total de 70 litros de aire) y el 30 % restante se alimenta como aire secundario a la cámara por encima de la combustión de los volátiles en el lecho de bagazo (Gordillo & García, 1992).

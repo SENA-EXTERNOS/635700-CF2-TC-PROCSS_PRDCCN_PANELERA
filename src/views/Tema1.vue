@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Combustión utilizados en la hornilla
+      h1 Combustible utilizado en las hornillas
     
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(data-aos='fade-right')(
@@ -247,7 +247,7 @@
             p.mb-1 En la práctica se ha encontrado que las mejores condiciones para quemar bagazo en quemadores son cuando el exceso de aire varía entre 40 % y 60 % del aire teórico.
             p.mb-1 <b>La imagen muestra algunos valores correlativos entre ɻ y m.</b>                                      
           .col-md-6
-            p.mb-4 Correlación entre el contenido CO2 de los gases de
+            p.mb-4 Correlación entre el contenido CO2 de los gases de escape y el exceso de aire
             figure
               img(data-aos='fade-left')(src='@/assets/curso/temas/T1/3.svg', alt='')
               figcaption.mt-3 Nota. Tomado de Hugot (1974).
@@ -290,7 +290,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1] #[br] #[i Diagrama de flujo del proceso de transformación de caña de panela] 
         figure
-          img(src='@/assets/curso/temas/T1/4.svg', alt='')
+          img(src='@/assets/curso/temas/T1/4-.svg', alt='')
     p Aunque el Estado colombiano ha tratado de tecnificar las pequeñas empresas productoras de panela, no se ha logrado acceder a recursos para la reconversión tecnológica de sus hornillas y pailas, gracias a esto, en las unidades de producción de panela, se presentan eventos no deseables:
     
     .row
